@@ -27,6 +27,13 @@ public class JavaApplication6 {
                 min = tab[i];
         
         System.out.println("min="+min);
+        
+        int max = tab[0];
+        for(int i = 0; i < N; i++)
+            if(tab[i]>max)
+                max = tab[i];
+        
+        System.out.println("max="+max);
     }
     
 }
