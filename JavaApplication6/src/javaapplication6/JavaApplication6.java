@@ -20,6 +20,13 @@ public class JavaApplication6 {
         
         for(int i = 0; i < N; i++)
             tab[i] = 0;
+        
+        int min = tab[0];
+        for(int i = 0; i < N; i++)
+            if(tab[i]<min)
+                min = tab[i];
+        
+        System.out.println("min="+min);
     }
     
 }
