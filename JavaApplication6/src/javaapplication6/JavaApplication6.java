@@ -15,6 +15,8 @@ public class JavaApplication6 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Poczatek programu");
+        
         final int N = 10;
         int tab[] = new int[N];
         
@@ -34,6 +36,8 @@ public class JavaApplication6 {
                 max = tab[i];
         
         System.out.println("max="+max);
+        
+        System.out.println("Koniec programu");
     }
     
 }
